@@ -13,7 +13,7 @@ app =  Flask(__name__)
 #Ruta raiz
 @app.route('/')
 def index():
-    return 'Hola Mundo, esta es una prueba para la creación de contenedores automaticos'
+    return 'Hola Mundo, esta es una prueba para la creación de contenedores automaticos. De igual manera se agrego funcionalidad automatica para verificar repositorio'
 
 if __name__ == '__main__':
     app.run(debug=True)
